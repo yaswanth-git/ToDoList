@@ -45,6 +45,7 @@ class Todo_Class {
 
             const liElement = document.createElement("li");
             const delBtn = document.createElement("i");
+            delBtn.textContent = "X";
 
             liElement.innerText = object_item.todoText;
             liElement.setAttribute("data-id", object_item.id);
